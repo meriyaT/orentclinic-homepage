@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "format": "prettier --write \"src/**/*.{ts,tsx}\"",
     "lint": "eslint \"src/**/*.{ts,tsx}\" --quiet",
-    "build": "esbuild src/App.tsx --bundle --sourcemap --outfile=dist/out.js",
+    "build": "esbuild src/App.tsx --bundle --sourcemap --outfile=dist/out.js --external:styled-components",
     "watch": "esbuild src/App.tsx --bundle --sourcemap --outfile=dist/out.js --watch",
     "serve": "esbuild src/App.tsx --servedir=./ --outdir=dist --bundle"
   },
@@ -43,6 +43,7 @@
     "@typescript-eslint/eslint-plugin": "^4.22.0",
     "@typescript-eslint/parser": "^4.22.0",
     "esbuild": "^0.11.17",
+    "esbuild-node-externals": "^1.2.0",
     "eslint": "^7.25.0",
     "eslint-config-airbnb": "^18.2.1",
     "eslint-config-prettier": "^8.3.0",
