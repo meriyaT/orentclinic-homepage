@@ -7,9 +7,10 @@ import { Location } from "./Location";
 export const MainSection = () => {
   return (
     <MainSectionWrapper>
-      <Doctors />
-      <Contact />
       <Location />
+      <Contact />
+
+      <Doctors />
     </MainSectionWrapper>
   );
 };
@@ -22,7 +23,9 @@ const MainSectionWrapper = styled.main`
   position: absolute;
   display: flex;
   flex-direction: column;
-  padding: 40px;
+  padding: 20px;
+  padding-left: 40px;
+  padding-top: 0;
   width: 70vw;
   @media (max-width: 650px) {
     width: 100%;

@@ -36,6 +36,7 @@ export const Location = () => {
     mapboxGlMap.on("load", function () {
       mapboxGlMap.resize();
     });
+    mapboxGlMap.scrollZoom.disable();
   };
 
   React.useEffect(() => {
@@ -44,7 +45,7 @@ export const Location = () => {
 
   return (
     <SectionWrapper>
-      <Header>Our location</Header>
+      <Header>Location</Header>
       <Map ref={mapContainer} />
     </SectionWrapper>
   );

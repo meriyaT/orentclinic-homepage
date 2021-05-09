@@ -2,7 +2,7 @@ import * as React from "react";
 import * as ReactDOM from "react-dom";
 import GlobalStyles from "./GlobalStyles";
 import styled from "styled-components";
-import { Header, SideBar, MainSection } from "./components/";
+import { SideBar, MainSection } from "./components/";
 
 const App = () => {
   return (

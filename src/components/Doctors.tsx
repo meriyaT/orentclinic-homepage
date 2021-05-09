@@ -1,13 +1,16 @@
 import * as React from "react";
 import styled from "styled-components";
 import { Header, SectionWrapper } from "./BasicUIElements";
+import thomas from "../../src/images/thomas.jpeg";
+import susan from "../../src/images/susan.jpg";
+
 export const Doctors = () => {
   return (
     <SectionWrapper>
-      <Header>Meet your doctors</Header>
+      <Header>Doctors</Header>
       <Doctor>
         <DocImageWrapper>
-          <DocImage src="../../src/images/thomas.jpeg" />
+          <DocImage src={thomas} />
         </DocImageWrapper>
         <DocContentWrapper>
           <NameWrapper>
@@ -28,7 +31,7 @@ export const Doctors = () => {
       </Doctor>
       <Doctor>
         <DocImageWrapper>
-          <DocImage src="../../src/images/susan.jpg" />{" "}
+          <DocImage src={susan} />
         </DocImageWrapper>
         <DocContentWrapper>
           <NameWrapper>
