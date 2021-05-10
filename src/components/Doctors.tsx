@@ -10,7 +10,7 @@ export const Doctors = () => {
       <Header>Doctors</Header>
       <Doctor>
         <DocImageWrapper>
-          <DocImage src={thomas} />
+          <DocImage src={thomas} alt="Photo of Dr. Thomas" />
         </DocImageWrapper>
         <DocContentWrapper>
           <NameWrapper>
@@ -31,7 +31,7 @@ export const Doctors = () => {
       </Doctor>
       <Doctor>
         <DocImageWrapper>
-          <DocImage src={susan} />
+          <DocImage src={susan} alt="Photo of Dr. Susan" />
         </DocImageWrapper>
         <DocContentWrapper>
           <NameWrapper>
