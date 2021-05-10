@@ -3,14 +3,16 @@ import styled from "styled-components";
 import { Doctors } from "./Doctors";
 import { Contact } from "./Contact";
 import { Location } from "./Location";
+import { Alert } from "./Alert";
 
 export const MainSection = () => {
   return (
     <MainSectionWrapper>
-      <Location />
-      <Contact />
-
+      <Alert />
       <Doctors />
+
+      <Contact />
+      <Location />
     </MainSectionWrapper>
   );
 };
