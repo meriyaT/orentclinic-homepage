@@ -57,7 +57,7 @@ export const Doctors = () => {
 const Doctor = styled.article`
   margin: 5px;
   display: flex;
-  @media (max-width: 800px) {
+  @media (max-width: 700px) {
     flex-direction: column;
     padding: 0;
   }
@@ -76,7 +76,7 @@ const DocContentWrapper = styled.div`
   padding-left: 20px;
   display: flex;
   flex-direction: column;
-  @media (max-width: 800px) {
+  @media (max-width: 700px) {
     flex-direction: column;
     padding-left: 0;
   }

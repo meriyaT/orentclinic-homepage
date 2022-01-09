@@ -8,29 +8,28 @@ export const Contact = () => {
       <Header>Contact us</Header>
       <ContactWrapper>
         <ContactSection>
-          <ContactItem>
+          <ContactItemHeader>
             <strong>Phone</strong>
-          </ContactItem>
+          </ContactItemHeader>
           <ContactItem>+91-479-2455538</ContactItem>
           <ContactItem>+91-934-934-5538</ContactItem>
           <ContactItem>+91-938-895-8498</ContactItem>
           <ContactItem>+91-944-740-0188 (whatsapp only)</ContactItem>
         </ContactSection>
         <ContactSection>
-          <ContactItem>
+          <ContactItemHeader>
             <strong>Email</strong>
-          </ContactItem>
+          </ContactItemHeader>
           <ContactItem>orentclinic@gmail.com</ContactItem>
         </ContactSection>
         <ContactSection>
-          <ContactItem>
+          <ContactItemHeader>
             <strong>Hours</strong>
-          </ContactItem>
+          </ContactItemHeader>
           <ContactItem>
             <strong>Monday to Friday</strong>
           </ContactItem>
-          <ContactItem>10:00 am to 1:00 pm</ContactItem>
-          <ContactItem>4:00 pm to 6:00 pm</ContactItem>
+          <ContactItem>10:00 AM to 2:00 PM</ContactItem>
           <ContactItem>
             <strong>Weekend - Holiday</strong>
           </ContactItem>
@@ -58,4 +57,12 @@ const ContactItem = styled.p`
   font-size: 1rem;
   padding: 2px;
   margin: 2px;
+`;
+
+const ContactItemHeader = styled.p`
+  font-family: "PT Mono", monospace;
+  font-size: 1rem;
+  padding: 2px;
+  margin: 2px;
+  color: #006ba6;
 `;

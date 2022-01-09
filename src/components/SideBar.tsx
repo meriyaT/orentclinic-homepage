@@ -27,7 +27,7 @@ const SideBarWrapper = styled.section`
   width: 30vw;
   top: 0;
   position: fixed;
-  @media (max-width: 600px) {
+  @media (max-width: 800px) {
     width: 100%;
     position: static;
   }
@@ -38,7 +38,7 @@ const SemiCircle = styled.div`
   border-top-right-radius: 100%;
   border-bottom-right-radius: 10%;
   background-color: #006ba6;
-  @media (max-width: 400px) {
+  @media (max-width: 800px) {
     width: 100%;
   }
 `;

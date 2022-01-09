@@ -29,8 +29,9 @@ const MainSectionWrapper = styled.main`
   padding-left: 40px;
   padding-top: 0;
   width: 70vw;
-  @media (max-width: 650px) {
+  @media (max-width: 800px) {
     width: 100%;
     position: static;
+    padding-left: 20px;
   }
 `;
