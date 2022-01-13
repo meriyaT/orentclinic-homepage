@@ -16,10 +16,11 @@ jobs:
     - name: npm install and build
       run: |
         npm install
-        npm run build -- --public-url https://orentclinic.com
+        npm run build
     - name: Deploy site to gh-pages branch
-      uses: crazy-max/ghaction-github-pages@v1.4.0
+      uses: JamesIves/github-pages-deploy-action@v4.2.2
       env:
         GITHUB_PAT: ${{ secrets.PAT }}
       with:
-        build_dir: ./dist
+       branch: gh-pages # The branch the action should deploy to.
+       folder: dist # The folder the action should deploy.
