@@ -26,7 +26,7 @@
   "bugs": {
     "url": "https://github.com/meriyaT/orentclinic-homepage/issues"
   },
-  "homepage": "https://github.com/meriyaT/orentclinic-homepage#readme",
+  "homepage": "https://meriyat.github.io/orentclinic-homepage/",
   "dependencies": {
     "mapbox-gl": "^2.2.0",
     "react": "^17.0.2",
