@@ -6,11 +6,13 @@ export const Alert = () => {
   return (
     <SectionWrapper>
       <AlertWrapper>
-        <AlertTitle>COVID-19: Important Message</AlertTitle>
+        <AlertTitle>HOLIDAY ANNOUNCEMENT</AlertTitle>
         <AlertMessage>
-          We are offering telephone/video service for ORTHOPEDIC and ENT
-          consultations during the crisis period. Contact us for more
-          information.
+          Please note that clinic will be closed from July 11, 2022 to October
+          16, 2022. Clinic will resume consultation from October 17, 2022.
+          During our holiday time, we are available for Telemedicine services
+          between 8:30 pm to 10:30pm IST. You can also chat on whatsapp with us
+          at 9447400188 (ENT) and 9847462563 (ORTHO)
         </AlertMessage>
       </AlertWrapper>
     </SectionWrapper>
@@ -27,7 +29,7 @@ const AlertWrapper = styled.div`
 
 const AlertTitle = styled.h4`
   font-family: "PT Serif", serif;
-  font-size: 1.563rem;
+  font-size: 1.663rem;
   padding: 5px;
   color: white;
 `;
