@@ -11,8 +11,8 @@ export const Alert = () => {
           Please note that clinic will be closed from July 11, 2022 to October
           16, 2022. Clinic will resume consultation from October 17, 2022.
           During our holiday time, we are available for Telemedicine services
-          between 8:30 pm to 10:30pm IST. You can also chat on whatsapp with us
-          at 9447400188 (ENT) and 9847462563 (ORTHO)
+          between 8:30 pm to 10:30pm IST. You can contact +91 9349345538 between
+          9:00am and 2:00 pm to schedulde online consultation.
         </AlertMessage>
       </AlertWrapper>
     </SectionWrapper>
