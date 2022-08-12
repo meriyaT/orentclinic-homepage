@@ -66,3 +66,24 @@ const MainContent = styled.div`
   font-family: "PT Mono", monospace;
   font-size: 1.563rem;
 `;
+
+const SaffronDiv = styled.div`
+  background-color: #ff8f1c;
+  width: 23vw;
+  min-height: 37px;
+  margin-left: 20px;
+`;
+
+const WhiteDiv = styled.div`
+  background-color: #ffffff;
+  width: 23vw;
+  min-height: 37px;
+  margin-left: 20px;
+`;
+
+const GreenDiv = styled.div`
+  background-color: #509e2f;
+  width: 23vw;
+  min-height: 37px;
+  margin-left: 20px;
+`;
