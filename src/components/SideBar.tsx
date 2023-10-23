@@ -64,7 +64,7 @@ const MainContent = styled.div`
   top: 25%; */
   color: white;
   font-family: "PT Mono", monospace;
-  font-size: 1.563rem;
+  font-size: 1.0rem;
 `;
 
 const SaffronDiv = styled.div`
