@@ -8,11 +8,9 @@ export const Alert = () => {
       <AlertWrapper>
         <AlertTitle>HOLIDAY ANNOUNCEMENT</AlertTitle>
         <AlertMessage>
-          Please note that clinic will be closed from July 11, 2022 to October
-          16, 2022. Clinic will resume consultation from October 18, 2022.
-          During our holiday time, we are available for Telemedicine services
-          between 8:30 pm to 10:30pm IST. You can contact +91 9349345538 between
-          9:00am and 2:00 pm to schedulde online consultation.
+          Please note that clinic will be closed for the time being.
+           Clinic will resume consultation from November 20, 2023 at 10 am.
+           Contact +91 934 934 5538 for more details.
         </AlertMessage>
       </AlertWrapper>
     </SectionWrapper>
