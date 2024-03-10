@@ -10,7 +10,6 @@ export const MainSection = () => {
     <MainSectionWrapper>
       <Alert />
       <Doctors />
-
       <Contact />
       <Location />
     </MainSectionWrapper>

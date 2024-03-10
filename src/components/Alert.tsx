@@ -6,11 +6,10 @@ export const Alert = () => {
   return (
     <SectionWrapper>
       <AlertWrapper>
-        <AlertTitle>HOLIDAY ANNOUNCEMENT</AlertTitle>
+        <AlertTitle>ANNOUNCEMENT</AlertTitle>
         <AlertMessage>
-          Please note that clinic will be closed for the time being.
-           Clinic will resume consultation from November 20, 2023 at 10 am.
-           Contact +91 934 934 5538 for more details.
+          Dr. Susan Thomas is on leave and will be available for consultations from first week of April 2024. 
+          Please contact 934 934 5538 for more details.
         </AlertMessage>
       </AlertWrapper>
     </SectionWrapper>
