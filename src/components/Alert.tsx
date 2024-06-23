@@ -8,8 +8,10 @@ export const Alert = () => {
       <AlertWrapper>
         <AlertTitle>ANNOUNCEMENT</AlertTitle>
         <AlertMessage>
-          Dr. Susan Thomas is on leave and will be available for consultations from first week of April 2024. 
-          Please contact 934 934 5538 for more details.
+         We wish to inform our valued patients that our clinic will be temporary closed. 
+         We will resume consultations starting from August 27, 2024.
+         For any inquiries or further details, please contact us at 934 934 5538.
+         We apologize for any inconvenience this may cause and appreciate your understanding.
         </AlertMessage>
       </AlertWrapper>
     </SectionWrapper>
