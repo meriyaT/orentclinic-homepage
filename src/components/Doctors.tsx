@@ -26,7 +26,7 @@ export const Doctors = () => {
             <Degree>PG</Degree>
             <College>Govt. Medical College, Calicut, 1986</College>
           </DocEducation>
-          <DocSpeciality>Accident and Trauma Care</DocSpeciality>
+          <DocSpeciality>Trauma care, bone and joint disease</DocSpeciality>
         </DocContentWrapper>
       </Doctor>
       <Doctor>
@@ -47,7 +47,7 @@ export const Doctors = () => {
             <Degree>MS</Degree>
             <College>Govt. Medical College, Calicut, 1987</College>
           </DocEducation>
-          <DocSpeciality>ENT</DocSpeciality>
+          <DocSpeciality>Ear, Nose, Throat (ENT)</DocSpeciality>
         </DocContentWrapper>
       </Doctor>
     </SectionWrapper>
