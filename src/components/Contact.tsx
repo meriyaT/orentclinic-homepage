@@ -14,7 +14,7 @@ export const Contact = () => {
           <ContactItem>+91-479-2455538</ContactItem>
           <ContactItem>+91-934-934-5538</ContactItem>
           <ContactItem>+91-938-895-8498</ContactItem>
-          <ContactItem>+91-944-740-0188 (whatsapp only)</ContactItem>
+          <ContactItem>+91-892-104-2340</ContactItem>
         </ContactSection>
         <ContactSection>
           <ContactItemHeader>
