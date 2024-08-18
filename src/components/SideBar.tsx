@@ -17,14 +17,6 @@ export const SideBar = () => {
             ensuring a comprehensive approach to your well-being. 
             With a foundation built on medical excellence and unwavering ethical standards, 
             we take pride in delivering top-quality healthcare.</h4>
-          <br />
-          <h4>
-          We believe that a strong, trusting doctor-patient relationship is essential for 
-          effective treatment and long-term health. 
-          Here at Orent Clinic, you're more than just a patient - you're an active partner in 
-          your health journey. Together, we'll work towards achieving your best possible 
-          health outcomes.
-          </h4>
         </MainContent>
       </MainAside>
       {/* <SemiCircle /> */}
@@ -38,6 +30,8 @@ const SideBarWrapper = styled.section`
   width: 30vw;
   top: 0;
   position: fixed;
+  background-color: #006ba6;
+  overflow-y: auto;
   @media (max-width: 800px) {
     width: 100%;
     position: static;
@@ -48,7 +42,6 @@ const SemiCircle = styled.div`
   width: 15vw;
   border-top-right-radius: 100%;
   border-bottom-right-radius: 10%;
-  background-color: #006ba6;
   @media (max-width: 800px) {
     width: 100%;
   }
