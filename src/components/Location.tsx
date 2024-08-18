@@ -1,7 +1,4 @@
 import * as React from "react";
-import styled from "styled-components";
-import mapboxgl from "mapbox-gl";
-import "mapbox-gl/dist/mapbox-gl.css";
 import { SectionWrapper, Header } from "./BasicUIElements";
 
 export const Location = () => {
