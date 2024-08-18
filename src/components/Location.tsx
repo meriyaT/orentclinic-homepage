@@ -5,7 +5,7 @@ import "mapbox-gl/dist/mapbox-gl.css";
 import { SectionWrapper, Header } from "./BasicUIElements";
 
 const address =
-  "<strong>Orent Clinic</strong><p>I.T.I Junction, M C Road</p><p>Chengannur, Kerala, India, 689121</p>";
+  "<strong>Orent Clinic</strong><p>I.T.I Junction, M C Road</p><p>Chengannur, Kerala, India, 689121</p><p>https://maps.app.goo.gl/BpveSutoKhSscRSf6</p>";
 export const Location = () => {
   const mapContainer = React.useRef<HTMLDivElement>(null);
   const initMap = () => {
@@ -46,6 +46,7 @@ export const Location = () => {
   return (
     <SectionWrapper>
       <Header>Location</Header>
+      <p>https://maps.app.goo.gl/BpveSutoKhSscRSf6</p>
       <Map ref={mapContainer} />
     </SectionWrapper>
   );

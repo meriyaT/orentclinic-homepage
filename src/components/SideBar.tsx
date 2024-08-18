@@ -7,12 +7,23 @@ export const SideBar = () => {
       <MainAside>
         <MainHeader>Orent Clinic</MainHeader>
         <MainContent>
-          <h4>We are proud to provide quality health care to our patients.</h4>
+          <h4>Welcome! At Orent Clinic, we redefine healthcare by 
+            offering a holistic approach and prevention that transcends conventional treatment. 
+            Our mission is to provide expert care in Orthopaedics and ENT while 
+            focusing on enhancing your overall quality of life and longevity. 
+            We view each patient as a unique individual deserving personalized attention. 
+            Our commitment goes beyond addressing immediate health concerns; 
+            we strive to improve your health span and lifespan, 
+            ensuring a comprehensive approach to your well-being. 
+            With a foundation built on medical excellence and unwavering ethical standards, 
+            we take pride in delivering top-quality healthcare.</h4>
           <br />
           <h4>
-            In addition to all routine Orthopaedic and ENT care, ORENT takes
-            personal interest to build a rapport and confidence between doctor
-            and the patient.
+          We believe that a strong, trusting doctor-patient relationship is essential for 
+          effective treatment and long-term health. 
+          Here at Orent Clinic, you're more than just a patient - you're an active partner in 
+          your health journey. Together, we'll work towards achieving your best possible 
+          health outcomes.
           </h4>
         </MainContent>
       </MainAside>

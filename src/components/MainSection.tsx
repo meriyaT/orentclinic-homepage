@@ -8,7 +8,6 @@ import { Alert } from "./Alert";
 export const MainSection = () => {
   return (
     <MainSectionWrapper>
-      <Alert />
       <Doctors />
       <Contact />
       <Location />
