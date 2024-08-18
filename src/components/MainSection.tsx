@@ -4,10 +4,13 @@ import { Doctors } from "./Doctors";
 import { Contact } from "./Contact";
 import { Location } from "./Location";
 import { Alert } from "./Alert";
+import { Mission } from "./Mission";
 
 export const MainSection = () => {
   return (
     <MainSectionWrapper>
+      <Alert/>
+      <Mission/>
       <Doctors />
       <Contact />
       <Location />
