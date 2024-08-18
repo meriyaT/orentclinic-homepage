@@ -14,10 +14,16 @@ export const MainSection = () => {
       <Doctors />
       <Contact />
       <Location />
+      <Footer>Copyright Orentclinic 2024</Footer>
     </MainSectionWrapper>
   );
 };
 
+const Footer = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+`
 const MainSectionWrapper = styled.main`
   display: flex;
   height: 100%;
