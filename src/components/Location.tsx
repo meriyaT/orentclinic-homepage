@@ -46,12 +46,18 @@ export const Location = () => {
   return (
     <SectionWrapper>
       <Header>Location</Header>
-      <p>https://maps.app.goo.gl/BpveSutoKhSscRSf6</p>
-      <Map ref={mapContainer} />
+      <a href='https://maps.app.goo.gl/BpveSutoKhSscRSf6'>Google maps location</a>
     </SectionWrapper>
   );
 };
 
+const LocationLink = styled.a`
+  font-family: "PT Mono", monospace;
+  font-size: 1rem;
+  padding: 2px;
+  margin: 2px;
+  color: #0e4766;
+`
 const Map = styled.div`
   margin: 5px;
   padding: 10px;
