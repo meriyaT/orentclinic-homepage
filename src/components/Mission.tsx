@@ -11,7 +11,7 @@ export const Mission = () => {
       <Header>Mission</Header>
       <SmallSection>
         We believe that a strong, trusting doctor-patient relationship is essential for effective treatment and long-term health. 
-        Here at Orent Clinic, you're more than just a patient - you're an active partner in your health journey. 
+        Here at Orent Consultations, you're more than just a patient - you're an active partner in your health journey. 
         Together, we'll work towards achieving your best possible health outcomes.
       </SmallSection>
     </SectionWrapper>
