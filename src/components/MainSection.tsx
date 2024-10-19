@@ -14,7 +14,7 @@ export const MainSection = () => {
       <Doctors />
       <Contact />
       <Location />
-      <Footer>Copyright Orentclinic 2024</Footer>
+      <Footer>Copyright OrentConsultations 2024</Footer>
     </MainSectionWrapper>
   );
 };
