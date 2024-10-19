@@ -5,7 +5,7 @@ export const SideBar = () => {
   return (
     <SideBarWrapper>
       <MainAside>
-        <MainHeader>Orent Consultations</MainHeader>
+        <MainHeader>Orent</MainHeader>
         <MainContent>
           <h4>Welcome! We redefine healthcare by 
             offering a holistic approach and prevention that transcends conventional treatment. 
