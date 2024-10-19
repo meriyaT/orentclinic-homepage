@@ -20,7 +20,7 @@ export const Contact = () => {
           <ContactItemHeader>
             <strong>Email</strong>
           </ContactItemHeader>
-          <ContactItem>orentclinic@gmail.com</ContactItem>
+          <ContactItem>orentconsult@gmail.com</ContactItem>
         </ContactSection>
         <ContactSection>
           <ContactItemHeader>
