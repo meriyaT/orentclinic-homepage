@@ -5,9 +5,9 @@ export const SideBar = () => {
   return (
     <SideBarWrapper>
       <MainAside>
-        <MainHeader>Orent Clinic</MainHeader>
+        <MainHeader>Orent Consultations</MainHeader>
         <MainContent>
-          <h4>Welcome! At Orent Clinic, we redefine healthcare by 
+          <h4>Welcome! We redefine healthcare by 
             offering a holistic approach and prevention that transcends conventional treatment. 
             Our mission is to provide expert care in Orthopaedics and ENT while 
             focusing on enhancing your overall quality of life and longevity. 
