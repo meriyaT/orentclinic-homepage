@@ -8,8 +8,10 @@ export const Alert = () => {
       <AlertWrapper>
         <AlertTitle>ANNOUNCEMENT</AlertTitle>
         <AlertMessage>
-        Operating Hours: Monday to Friday, 10 AM to 2 PM. 
-        For appointments, please call: 934 934 5538        
+        Our consultation services at the centre are temporarily closed and will resume on October 8th, 2025.
+However, teleconsultation services remain available for existing patients.
+For further information or assistance, please contact us at 934 934 5538.
+We appreciate your understanding and continued trust.   
       </AlertMessage>
       </AlertWrapper>
     </SectionWrapper>
